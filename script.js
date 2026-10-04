@@ -3,39 +3,41 @@ const storageKeys = { theme: 'mark-portfolio-theme', locale: 'mark-portfolio-loc
 const translations = {
   ru: {
     skip: 'Перейти к содержимому', brandName: 'Марк', brandRole: 'веб-разработчик', brandHome: 'Марк — на главную', mainNav: 'Основная навигация', mobileNav: 'Мобильная навигация',
-    navProjects: 'Проекты', navAbout: 'Обо мне', navContact: 'Контакты', headerCta: 'Обсудим проект', themeLight: 'Переключить на светлую тему', themeDark: 'Переключить на тёмную тему', localeToEnglish: 'Switch to English', localeToRussian: 'Переключить на русский', menuOpen: 'Открыть меню', menuClose: 'Закрыть меню',
-    metaDescription: 'Портфолио Марка, веб-разработчика: сайты и интерфейсы для реальных проектов, созданные с вниманием к форме и деталям.', homeTitle: 'Марк — веб-разработчик с чувством формы', projectsMetaDescription: 'Пять опубликованных веб-проектов: сайты, лендинги и портфолио с живыми демо и исходным кодом.', projectsTitle: 'Проекты — Марк, веб-разработчик',
-    availability: 'Открыт к интересным проектам', heroMark: 'Портфолио / 2026', heroHello: 'Привет, я Марк', heroRole: 'Веб-разработчик', heroHeading: 'Делаю<br />цифровое<br /><span class="hero-last">живым<span class="period">.</span><svg class="hero-scribble" viewBox="0 0 397 30" fill="none" aria-hidden="true"><path d="M3 20C93 4 279 -1 393 19M46 27c98-16 206-16 308-4" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg></span>',
-    heroLead: 'Превращаю идеи в сайты и интерфейсы, которые не просто работают — они запоминаются.', seeWork: 'Смотреть проекты', allProjects: 'Все проекты', contactMe: 'Связаться со мной', portfolioFacts: 'Факты о портфолио', projectsFact: 'опубликованных проектов', languagesFact: 'два языка', heroArtwork: 'Абстрактная иллюстрация цифрового интерфейса', artTop: 'КРЕАТИВНЫЙ КОД / 001', artIdea: 'Идея<br />↓<br />Реальность', artDetail: '001 / Сделано с интересом', heroFootLeft: 'Дизайн-мышление × Разработка', scroll: 'Листай вниз',
-    artSticker: 'код<br /><span>&amp;</span> душа',
-    ticker: 'ИНТЕРФЕЙСЫ С ХАРАКТЕРОМ <b>✳</b> КОД СО СМЫСЛОМ <b>✳</b> ИДЕИ В ДЕЙСТВИИ <b>✳', featuredEyebrow: 'Избранное', featuredHeading: 'Работы, которые<br /><em>говорят сами.</em>', featuredIntro: 'Реальные сайты и страницы для проектов — каждый со своей задачей.', viewDemo: 'Смотреть демо', sourceCode: 'Исходный код', workFootnote: 'Портфолио показывает опубликованные демо, а не обещания о серверной функциональности.', allFive: 'Смотреть все пять проектов',
-    aboutEyebrow: 'Обо мне', aboutHeading: 'Между логикой<br />и <span>магией.</span>', aboutLead: 'Мне нравится момент, когда сложная задача превращается в <em>простой, красивый и удобный</em> опыт.', aboutBody: 'Я Марк, веб-разработчик. Думаю о деталях, проектирую с заботой о пользователе и пишу код, с которым приятно работать дальше. Верю: сильный продукт рождается там, где технология встречается с идеей.', letsTalk: 'Давайте знакомиться', skillsEyebrow: 'Инструменты', skillsHeading: 'Чем собираю<br /><em>идеи в продукт.</em>', skillsIntro: 'Подход важнее набора технологий. Но хороший набор тоже помогает.', skillOneNum: '01 / ОСНОВА', skillOneTitle: 'Разработка', skillOneBody: 'HTML, CSS, JavaScript<br />и современные интерфейсы', skillTwoNum: '02 / ПОДХОД', skillTwoTitle: 'Дизайн-мышление', skillTwoBody: 'Типографика, композиция<br />и внимание к деталям', skillThreeNum: '03 / ОЩУЩЕНИЕ', skillThreeTitle: 'Интерактивность', skillThreeBody: 'Анимация, микровзаимодействия<br />и немного магии',
-    contactEyebrow: 'ЕСТЬ ИДЕЯ? ДАВАЙТЕ ОБСУДИМ', contactIndex: '04 / КОНТАКТЫ', contactKicker: 'Хорошие проекты начинаются с разговора.', contactHeading: 'Давайте сделаем<br /><em>что-то классное<span>.</span></em>', writeMe: 'Написать мне', copyEmail: 'Скопировать email', copySuccess: 'Email скопирован', copyFailedLabel: 'Не удалось скопировать', copyReady: 'Адрес электронной почты можно скопировать.', copyFailure: 'Не удалось скопировать email. Напишите мне по адресу ниже.', mailtoSubject: 'mailto:deadlydeadlars@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B0', backToTop: 'Наверх', backTop: 'Наверх', footerMade: 'Сделано с интересом и вниманием к деталям.',
-    projectsEyebrow: 'Избранные работы', projectsHeading: 'От идеи<br />к <em>живому вебу.</em>', projectsIntro: 'Пять проектов, которые можно открыть прямо сейчас: промо-страницы и сайты с разными задачами, собранные с вниманием к визуальному ритму и деталям.', filterSection: 'Фильтры проектов', projectFilters: 'Фильтры проектов', filterAll: 'Все', filterWebsites: 'Сайты', filterLandings: 'Лендинги', filterPortfolio: 'Портфолио', showingProjects: 'Показано', ofProjects: 'из', projectsNoun: 'проектов', catalogNote: 'Описание отражает возможности именно опубликованного демо; концепты и интерфейсы не представлены как работающие backend-сервисы.', backHome: 'Вернуться на главную', catalogContactHeading: 'Есть задача?<br /><em>Давайте обсудим<span>.</span></em>',
-    catalogContactIndex: '02 / КОНТАКТЫ',
-    countOne: 'проект', countFew: 'проекта', countMany: 'проектов', projectOpen: 'Открыть демо', projectFightfinderTitle: 'FightFinder', projectFightfinderCategoryLabel: 'Лендинг приложения', projectFightfinderDescription: 'Промо-страница приложения для поиска партнёров по тренировкам.', projectFightfinderNote: 'Промо-страница; подбор партнёров, сбор заявок и backend не работают.', projectFightfinderAlt: 'FightFinder — промо-страница приложения для поиска партнёров по тренировкам',
-    projectCofeeteaTitle: 'CofeeTea', projectCofeeteaCategoryLabel: 'Сайт кофейни', projectCofeeteaDescription: 'Сайт кофейни в Екатеринбурге: меню, переключение вкладок и интерфейс бронирования.', projectCofeeteaNote: 'Форма бронирования не отправляет реальные заявки.', projectCofeeteaAlt: 'Сайт кофейни CofeeTea с меню и интерфейсом бронирования',
-    projectShinruTitle: 'ШинРу / ShinRu', projectShinruCategoryLabel: 'Сайт автосервиса', projectShinruDescription: 'Сайт автосервиса в Казани с описанием услуг и интерфейсом записи.', projectShinruNote: 'Демо показывает интерфейс; отправка заявок на сервер не подключена.', projectShinruAlt: 'Сайт автосервиса ШинРу с информацией об услугах',
-    projectNodusTitle: 'Nodus', projectNodusCategoryLabel: 'Концептуальный лендинг', projectNodusDescription: 'Презентационный лендинг концепции приватной сети.', projectNodusNote: 'Концепт; P2P-сеть и сквозное шифрование в демо не реализованы.', projectNodusAlt: 'Nodus — концептуальный лендинг приватной сети',
-    projectMarkdevTitle: 'MarkDev', projectMarkdevCategoryLabel: 'Портфолио', projectMarkdevDescription: 'Редакционное портфолио с лаконичной типографикой и заметной подачей работ.', projectMarkdevNote: 'Отдельная опубликованная версия портфолио.', projectMarkdevAlt: 'MarkDev — редакционное портфолио веб-разработчика'
+    navProjects: 'Проекты', navAbout: 'Обо мне', navContact: 'Контакты', headerCta: 'Связаться', themeLight: 'Переключить на светлую тему', themeDark: 'Переключить на тёмную тему', localeToEnglish: 'Switch to English', localeToRussian: 'Переключить на русский', menuOpen: 'Открыть меню', menuClose: 'Закрыть меню',
+    metaDescription: 'Марк — веб-разработчик. Сайты, лендинги и портфолио с опубликованными демо.', homeTitle: 'Марк — веб-разработчик', projectsMetaDescription: 'Пять веб-проектов Марка с опубликованными демо.', projectsTitle: 'Проекты — Марк',
+    heroIdentity: 'Марк', heroStatement: 'Веб-разработка', heroDescription: 'Собираю сайты и интерфейсы — от структуры до кода.', showcaseLabel: 'Один из проектов', showcaseHint: 'Выберите другой проект',
+    featuredEyebrow: 'Проекты', featuredHeading: 'Избранные проекты', featuredIntro: 'Сайты и интерфейсы с опубликованными демо.', viewDemo: 'Смотреть демо', sourceCode: 'Исходный код', workFootnote: 'Все ссылки ведут на опубликованные демо.', allProjects: 'Все проекты', allFive: 'Все пять проектов',
+    aboutEyebrow: 'Профиль', aboutHeading: 'Марк,<br /><em>веб-разработчик.</em>', aboutLead: 'Делаю сайты и интерфейсы — от структуры до готовой страницы.', aboutBody: 'Работаю с HTML, CSS и JavaScript. В портфолио — сайты кофейни и автосервиса, промо-страница FightFinder, концепт Nodus и портфолио MarkDev.', letsTalk: 'Написать Марку',
+    skillsEyebrow: 'Технологии', skillsHeading: 'Стек', skillsIntro: 'Технологии, которые использую в проектах.',
+    contactEyebrow: 'Контакты', contactIndex: '03 / СВЯЗЬ', catalogContactIndex: '02 / СВЯЗЬ', contactKicker: 'Марк · веб-разработчик', contactHeading: 'Есть проект?<br /><em>Напишите мне.</em>', writeMe: 'Написать на email', copyEmail: 'Скопировать email', copySuccess: 'Email скопирован', copyError: 'Не удалось скопировать. Напишите на адрес ниже.', copyReady: 'Адрес электронной почты можно скопировать.', mailtoSubject: 'mailto:deadlydeadlars@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B0',
+    backTop: 'Наверх', footerMade: 'Марк · веб-разработчик',
+    projectsHeading: 'Пять проектов.<br /><em>Открытые демо.</em>', projectsIntro: 'Пять опубликованных работ: сайты, промо-страницы и портфолио.',
+    filterSection: 'Фильтры проектов', projectFilters: 'Фильтры проектов', filterAll: 'Все', filterWebsites: 'Сайты', filterLandings: 'Лендинги', filterPortfolio: 'Портфолио', showingProjects: 'Показано', ofProjects: 'из', projectsNoun: 'проектов', catalogNote: 'В карточках указаны возможности опубликованных демо. Демо-интерфейс не означает подключённый сервер.', backHome: 'На главную',
+    countOne: 'проект', countFew: 'проекта', countMany: 'проектов', projectOpen: 'Открыть демо',
+    projectFightfinderTitle: 'FightFinder', projectFightfinderCategoryLabel: 'Промо-страница', projectFightfinderDescription: 'Промо-страница приложения для поиска партнёров по тренировкам.', projectFightfinderNote: 'Бэкенд подбора партнёров и сбора заявок не подключён.', projectFightfinderAlt: 'FightFinder — промо-страница приложения для поиска партнёров по тренировкам',
+    projectCofeeteaTitle: 'CofeeTea', projectCofeeteaCategoryLabel: 'Сайт кофейни', projectCofeeteaDescription: 'Сайт кофейни в Екатеринбурге с меню и интерфейсом бронирования.', projectCofeeteaNote: 'Форма бронирования не отправляет реальные заявки.', projectCofeeteaAlt: 'Сайт кофейни CofeeTea с меню и интерфейсом бронирования',
+    projectShinruTitle: 'ШинРу / ShinRu', projectShinruCategoryLabel: 'Сайт автосервиса', projectShinruDescription: 'Сайт автосервиса в Казани с услугами и интерфейсом записи.', projectShinruNote: 'Заявки с сайта не отправляются на сервер.', projectShinruAlt: 'Сайт автосервиса ШинРу с информацией об услугах',
+    projectNodusTitle: 'Nodus', projectNodusCategoryLabel: 'Концепт', projectNodusDescription: 'Презентационная страница концепции приватной сети.', projectNodusNote: 'Концепт: P2P-сеть и сквозное шифрование в демо не реализованы.', projectNodusAlt: 'Nodus — концептуальная страница приватной сети',
+    projectMarkdevTitle: 'MarkDev', projectMarkdevCategoryLabel: 'Портфолио', projectMarkdevDescription: 'Опубликованная версия портфолио веб-разработчика.', projectMarkdevNote: 'Отдельная опубликованная версия портфолио.', projectMarkdevAlt: 'MarkDev — портфолио веб-разработчика'
   },
   en: {
     skip: 'Skip to content', brandName: 'Mark', brandRole: 'web developer', brandHome: 'Mark — home', mainNav: 'Main navigation', mobileNav: 'Mobile navigation',
-    navProjects: 'Projects', navAbout: 'About', navContact: 'Contact', headerCta: 'Let’s talk', themeLight: 'Switch to light theme', themeDark: 'Switch to dark theme', localeToEnglish: 'Switch to English', localeToRussian: 'Switch to Russian', menuOpen: 'Open menu', menuClose: 'Close menu',
-    metaDescription: 'Portfolio of Mark, a web developer: websites and interfaces for real projects, shaped with care for form and detail.', homeTitle: 'Mark — web developer with an eye for form', projectsMetaDescription: 'Five published web projects: websites, landing pages, and a portfolio with live demos and public source code.', projectsTitle: 'Projects — Mark, web developer',
-    availability: 'Open to interesting projects', heroMark: 'Portfolio / 2026', heroHello: 'Hi, I’m Mark', heroRole: 'Web developer', heroHeading: 'Making<br />digital<br /><span class="hero-last">feel alive<span class="period">.</span><svg class="hero-scribble" viewBox="0 0 397 30" fill="none" aria-hidden="true"><path d="M3 20C93 4 279 -1 393 19M46 27c98-16 206-16 308-4" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg></span>',
-    heroLead: 'I turn ideas into websites and interfaces that do more than work — they stay with you.', seeWork: 'Explore projects', allProjects: 'All projects', contactMe: 'Get in touch', portfolioFacts: 'Portfolio facts', projectsFact: 'published projects', languagesFact: 'two languages', heroArtwork: 'Abstract digital interface illustration', artTop: 'CREATIVE CODE / 001', artIdea: 'Idea<br />↓<br />Reality', artDetail: '001 / Made with curiosity', heroFootLeft: 'Design thinking × Development', scroll: 'Scroll down',
-    artSticker: 'code<br /><span>&amp;</span> soul',
-    ticker: 'INTERFACES WITH CHARACTER <b>✳</b> CODE WITH PURPOSE <b>✳</b> IDEAS IN MOTION <b>✳', featuredEyebrow: 'Selected work', featuredHeading: 'Work that<br /><em>speaks for itself.</em>', featuredIntro: 'Real websites and project pages, each made to solve a different challenge.', viewDemo: 'View demo', sourceCode: 'Source code', workFootnote: 'This portfolio showcases published demos, not claims about backend functionality.', allFive: 'Explore all five projects',
-    aboutEyebrow: 'About me', aboutHeading: 'Between logic<br />and <span>a little magic.</span>', aboutLead: 'I love the moment a complex problem turns into a <em>simple, thoughtful, and enjoyable</em> experience.', aboutBody: 'I’m Mark, a web developer. I care about details, design with people in mind, and write code that’s pleasant to build on. I believe strong products emerge where technology meets an idea.', letsTalk: 'Let’s get acquainted', skillsEyebrow: 'Tools', skillsHeading: 'Turning<br /><em>ideas into products.</em>', skillsIntro: 'How you think matters more than the toolset. The right tools still help.', skillOneNum: '01 / FOUNDATION', skillOneTitle: 'Development', skillOneBody: 'HTML, CSS, JavaScript<br />and modern interfaces', skillTwoNum: '02 / APPROACH', skillTwoTitle: 'Design thinking', skillTwoBody: 'Typography, composition<br />and attention to detail', skillThreeNum: '03 / FEEL', skillThreeTitle: 'Interaction', skillThreeBody: 'Motion, micro-interactions<br />and a little magic',
-    contactEyebrow: 'HAVE AN IDEA? LET’S TALK', contactIndex: '04 / CONTACT', contactKicker: 'Good projects start with a conversation.', contactHeading: 'Let’s make<br /><em>something great<span>.</span></em>', writeMe: 'Send me a message', copyEmail: 'Copy email', copySuccess: 'Email copied', copyFailedLabel: 'Could not copy', copyReady: 'Email address is ready to copy.', copyFailure: 'Could not copy the email. Write to me at the address below.', mailtoSubject: 'mailto:deadlydeadlars@gmail.com?subject=Project%20inquiry%20for%20Mark', backToTop: 'Back to top', backTop: 'Back to top', footerMade: 'Made with curiosity and attention to detail.',
-    projectsEyebrow: 'Selected work', projectsHeading: 'From idea<br />to <em>living web.</em>', projectsIntro: 'Five projects you can open right now: landing pages and websites with different goals, crafted with care for visual rhythm and detail.', filterSection: 'Project filters', projectFilters: 'Project filters', filterAll: 'All', filterWebsites: 'Websites', filterLandings: 'Landings', filterPortfolio: 'Portfolio', showingProjects: 'Showing', ofProjects: 'of', projectsNoun: 'projects', catalogNote: 'Descriptions reflect what each published demo actually does; concepts and interfaces are not presented as working backend services.', backHome: 'Back to homepage', catalogContactHeading: 'Have a brief?<br /><em>Let’s talk<span>.</span></em>',
-    catalogContactIndex: '02 / CONTACT',
-    countOne: 'project', countFew: 'projects', countMany: 'projects', projectOpen: 'Open demo', projectFightfinderTitle: 'FightFinder', projectFightfinderCategoryLabel: 'Product landing page', projectFightfinderDescription: 'A promotional page for an app to find workout partners.', projectFightfinderNote: 'Promotional page only; partner matching, lead collection, and the backend are not functional.', projectFightfinderAlt: 'FightFinder — promotional page for an app to find workout partners',
-    projectCofeeteaTitle: 'CofeeTea', projectCofeeteaCategoryLabel: 'Coffee shop website', projectCofeeteaDescription: 'A Yekaterinburg coffee shop website with a menu, tabs, and a booking interface.', projectCofeeteaNote: 'The booking form does not submit real requests.', projectCofeeteaAlt: 'CofeeTea coffee shop website with a menu and booking interface',
-    projectShinruTitle: 'ShinRu', projectShinruCategoryLabel: 'Auto service website', projectShinruDescription: 'A Kazan auto service website with service details and a booking interface.', projectShinruNote: 'The demo shows the interface; server-side request submission is not connected.', projectShinruAlt: 'ShinRu auto service website with service information',
-    projectNodusTitle: 'Nodus', projectNodusCategoryLabel: 'Concept landing page', projectNodusDescription: 'A presentation landing page for a private network concept.', projectNodusNote: 'Concept only; P2P networking and end-to-end encryption are not implemented in the demo.', projectNodusAlt: 'Nodus — concept landing page for a private network',
-    projectMarkdevTitle: 'MarkDev', projectMarkdevCategoryLabel: 'Portfolio', projectMarkdevDescription: 'An editorial portfolio with restrained typography and a distinctive presentation of work.', projectMarkdevNote: 'A separate published portfolio version.', projectMarkdevAlt: 'MarkDev — editorial portfolio for a web developer'
+    navProjects: 'Projects', navAbout: 'About', navContact: 'Contact', headerCta: 'Contact', themeLight: 'Switch to light theme', themeDark: 'Switch to dark theme', localeToEnglish: 'Switch to English', localeToRussian: 'Switch to Russian', menuOpen: 'Open menu', menuClose: 'Close menu',
+    metaDescription: 'Mark is a web developer. Websites, landing pages, and a portfolio with published demos.', homeTitle: 'Mark — web developer', projectsMetaDescription: 'Five web projects by Mark with published demos.', projectsTitle: 'Projects — Mark',
+    heroIdentity: 'Mark', heroStatement: 'Web development', heroDescription: 'I build websites and interfaces, from layout to code.', showcaseLabel: 'Project spotlight', showcaseHint: 'Choose another project',
+    featuredEyebrow: 'Projects', featuredHeading: 'Selected projects', featuredIntro: 'Websites and interfaces with published demos.', viewDemo: 'View demo', sourceCode: 'Source code', workFootnote: 'Every link opens a published demo.', allProjects: 'All projects', allFive: 'All five projects',
+    aboutEyebrow: 'Profile', aboutHeading: 'Mark,<br /><em>web developer.</em>', aboutLead: 'I build websites and interfaces, from structure to a finished page.', aboutBody: 'I work with HTML, CSS, and JavaScript. The portfolio includes a coffee shop and auto service website, the FightFinder promo page, the Nodus concept, and the MarkDev portfolio.', letsTalk: 'Email Mark',
+    skillsEyebrow: 'Tools', skillsHeading: 'Stack', skillsIntro: 'Tools I use in my projects.',
+    contactEyebrow: 'Contact', contactIndex: '03 / CONTACT', catalogContactIndex: '02 / CONTACT', contactKicker: 'Mark · web developer', contactHeading: 'Have a project?<br /><em>Email me.</em>', writeMe: 'Email me', copyEmail: 'Copy email', copySuccess: 'Email copied', copyError: 'Could not copy. Email me at the address below.', copyReady: 'Email address is ready to copy.', mailtoSubject: 'mailto:deadlydeadlars@gmail.com?subject=Project%20inquiry%20for%20Mark',
+    backTop: 'Back to top', footerMade: 'Mark · web developer',
+    projectsHeading: 'Five projects.<br /><em>Live demos.</em>', projectsIntro: 'Five published projects: websites, promotional pages, and a portfolio.',
+    filterSection: 'Project filters', projectFilters: 'Project filters', filterAll: 'All', filterWebsites: 'Websites', filterLandings: 'Landing pages', filterPortfolio: 'Portfolio', showingProjects: 'Showing', ofProjects: 'of', projectsNoun: 'projects', catalogNote: 'Cards describe what the published demos do. An interface demo does not mean a server is connected.', backHome: 'Back home',
+    countOne: 'project', countFew: 'projects', countMany: 'projects', projectOpen: 'Open demo',
+    projectFightfinderTitle: 'FightFinder', projectFightfinderCategoryLabel: 'Promotional page', projectFightfinderDescription: 'A promotional page for an app to find workout partners.', projectFightfinderNote: 'The backend for partner matching and lead collection is not connected.', projectFightfinderAlt: 'FightFinder — promotional page for an app to find workout partners',
+    projectCofeeteaTitle: 'CofeeTea', projectCofeeteaCategoryLabel: 'Coffee shop website', projectCofeeteaDescription: 'A Yekaterinburg coffee shop website with a menu and booking interface.', projectCofeeteaNote: 'The booking form does not submit real requests.', projectCofeeteaAlt: 'CofeeTea coffee shop website with a menu and booking interface',
+    projectShinruTitle: 'ShinRu', projectShinruCategoryLabel: 'Auto service website', projectShinruDescription: 'A Kazan auto service website with service details and a booking interface.', projectShinruNote: 'Requests from the site are not sent to a server.', projectShinruAlt: 'ShinRu auto service website with service information',
+    projectNodusTitle: 'Nodus', projectNodusCategoryLabel: 'Concept', projectNodusDescription: 'A presentation page for a private network concept.', projectNodusNote: 'Concept only; P2P networking and end-to-end encryption are not implemented in the demo.', projectNodusAlt: 'Nodus — private network concept page',
+    projectMarkdevTitle: 'MarkDev', projectMarkdevCategoryLabel: 'Portfolio', projectMarkdevDescription: 'A published version of a web developer portfolio.', projectMarkdevNote: 'A separate published portfolio version.', projectMarkdevAlt: 'MarkDev — web developer portfolio'
   }
 };
 
@@ -45,6 +47,13 @@ const localeButton = document.querySelector('.locale-switch');
 const menuButton = document.querySelector('.menu-toggle');
 const mobileNav = document.querySelector('#mobile-nav');
 let locale = root.lang === 'en' ? 'en' : 'ru';
+const showcase = document.querySelector('[data-showcase]');
+const showcaseControls = showcase?.querySelector('[data-showcase-controls]');
+const showcasePanels = new Map(Array.from(showcase?.querySelectorAll('[data-showcase-panel]') ?? [], (panel) => [panel.dataset.showcasePanel, panel]));
+const showcaseButtons = new Map(Array.from(showcase?.querySelectorAll('[data-showcase-select]') ?? [], (button) => [button.dataset.showcaseSelect, button]));
+const showcaseProjectIds = ['cofeetea', 'fightfinder', 'shinru'];
+let activeShowcaseProject = null;
+let showcaseReady = false;
 
 function translate(key) {
   return translations[locale][key] ?? translations.ru[key] ?? key;
@@ -64,30 +73,107 @@ function applyTheme(theme, save = true) {
     themeButton.title = translate(actionKey);
   }
   const themeColor = document.querySelector('meta[name="theme-color"]');
-  if (themeColor) themeColor.content = selected === 'dark' ? '#10130f' : '#f5f3ed';
+  if (themeColor) themeColor.content = selected === 'dark' ? '#101010' : '#eeede7';
   if (save) persist(storageKeys.theme, selected);
 }
 
 function setText(element, value) {
-  const textNode = Array.from(element.childNodes).find((node) => node.nodeType === Node.TEXT_NODE);
+  let textNode = element.firstChild;
+  while (textNode && textNode.nodeType !== Node.TEXT_NODE) textNode = textNode.nextSibling;
   if (textNode) textNode.nodeValue = value;
+  else if (element.firstChild) element.insertBefore(element.ownerDocument.createTextNode(value), element.firstChild);
   else element.textContent = value;
 }
 
 function updateProjectCards() {
   document.querySelectorAll('[data-project-id]').forEach((card) => {
-    const prefix = `project${card.dataset.projectId[0].toUpperCase()}${card.dataset.projectId.slice(1)}`;
+    const id = card.dataset.projectId;
+    if (!id) return;
+    const prefix = `project${id[0].toUpperCase()}${id.slice(1)}`;
     ['title', 'categoryLabel', 'description', 'note', 'alt'].forEach((field) => {
       const element = card.querySelector(`[data-project-field="${field}"]`);
       if (!element) return;
       const fieldName = field[0].toUpperCase() + field.slice(1);
-      const value = translate(`${prefix}${fieldName}`);
+      const key = `${prefix}${fieldName}`;
+      if (!Object.prototype.hasOwnProperty.call(translations[locale], key)) return;
+      const value = translate(key);
       if (field === 'alt') element.alt = value;
-      else element.textContent = value;
+      else setText(element, value);
     });
     const previewLink = card.querySelector('.project-preview-link');
-    if (previewLink) previewLink.setAttribute('aria-label', `${translate('projectOpen')} ${translate(`${prefix}Title`)}`);
+    const titleKey = `${prefix}Title`;
+    if (previewLink && Object.prototype.hasOwnProperty.call(translations[locale], titleKey)) {
+      previewLink.setAttribute('aria-label', `${translate('projectOpen')} ${translate(titleKey)}`);
+    }
   });
+}
+
+function updateShowcaseCaption() {
+  if (!showcase) return;
+  const projectId = activeShowcaseProject || showcase.dataset.activeProject || 'cofeetea';
+  const panel = showcasePanels.get(projectId);
+  const prefix = `project${projectId[0].toUpperCase()}${projectId.slice(1)}`;
+  if (panel) {
+    ['title', 'categoryLabel', 'description'].forEach((field) => {
+      const target = panel.querySelector(`[data-project-field="${field}"]`);
+      const key = `${prefix}${field[0].toUpperCase()}${field.slice(1)}`;
+      if (target && Object.prototype.hasOwnProperty.call(translations[locale], key)) setText(target, translate(key));
+    });
+    const previewLink = panel.querySelector('.project-preview-link');
+    const titleKey = `${prefix}Title`;
+    if (previewLink && Object.prototype.hasOwnProperty.call(translations[locale], titleKey)) {
+      previewLink.setAttribute('aria-label', `${translate('projectOpen')} ${translate(titleKey)}`);
+    }
+  }
+  showcaseButtons.forEach((button, id) => {
+    const titleKey = `project${id[0].toUpperCase()}${id.slice(1)}Title`;
+    if (Object.prototype.hasOwnProperty.call(translations[locale], titleKey)) button.setAttribute('aria-label', translate(titleKey));
+  });
+  showcase.setAttribute('aria-label', translate('showcaseLabel'));
+  if (showcaseControls) showcaseControls.setAttribute('aria-label', translate('showcaseHint'));
+}
+
+const finePointerQuery = window.matchMedia('(hover: hover) and (pointer: fine)');
+let finePointerHandlersEnabled = false;
+function onShowcaseButtonPointerEnter(event) {
+  if (event.pointerType !== 'touch') selectShowcaseProject(event.currentTarget.dataset.showcaseSelect);
+}
+function syncShowcasePointerInput() {
+  if (!showcaseReady) return;
+  if (finePointerQuery.matches && !finePointerHandlersEnabled) {
+    showcaseProjectIds.forEach((id) => showcaseButtons.get(id).addEventListener('pointerenter', onShowcaseButtonPointerEnter));
+    finePointerHandlersEnabled = true;
+  } else if (!finePointerQuery.matches && finePointerHandlersEnabled) {
+    showcaseProjectIds.forEach((id) => showcaseButtons.get(id).removeEventListener('pointerenter', onShowcaseButtonPointerEnter));
+    finePointerHandlersEnabled = false;
+  }
+}
+finePointerQuery.addEventListener('change', syncShowcasePointerInput);
+
+function selectShowcaseProject(projectId) {
+  if (!showcaseReady || !showcasePanels.has(projectId) || !showcaseButtons.has(projectId)) return;
+  activeShowcaseProject = projectId;
+  showcase.dataset.activeProject = projectId;
+  showcasePanels.forEach((panel, id) => { panel.hidden = id !== projectId; });
+  showcaseButtons.forEach((button, id) => button.setAttribute('aria-pressed', String(id === projectId)));
+  updateShowcaseCaption();
+}
+
+function initializeShowcase() {
+  if (!showcase || !showcaseControls) return;
+  const panelCount = showcase.querySelectorAll('[data-showcase-panel]').length;
+  const buttonCount = showcaseControls.querySelectorAll('[data-showcase-select]').length;
+  if (panelCount !== showcaseProjectIds.length || buttonCount !== showcaseProjectIds.length
+    || showcasePanels.size !== showcaseProjectIds.length || showcaseButtons.size !== showcaseProjectIds.length
+    || !showcaseProjectIds.every((id) => showcasePanels.has(id) && showcaseButtons.has(id))) return;
+  showcaseReady = true;
+  showcaseProjectIds.forEach((id) => {
+    showcaseButtons.get(id).addEventListener('click', () => selectShowcaseProject(id));
+    showcaseButtons.get(id).addEventListener('focus', () => selectShowcaseProject(id));
+  });
+  selectShowcaseProject(showcaseProjectIds[0]);
+  showcaseControls.hidden = false;
+  syncShowcasePointerInput();
 }
 
 function updateFilterCount() {
@@ -128,6 +214,7 @@ function updateLocale(nextLocale, save = true) {
   if (menuButton) menuButton.setAttribute('aria-label', translate(menuButton.getAttribute('aria-expanded') === 'true' ? 'menuClose' : 'menuOpen'));
   applyTheme(root.dataset.theme, false);
   updateProjectCards();
+  updateShowcaseCaption();
   updateFilterCount();
   if (save) persist(storageKeys.locale, locale);
 }
@@ -141,6 +228,7 @@ applyTheme(initialTheme, false);
 root.classList.add('js-enabled');
 if (mobileNav) mobileNav.hidden = true;
 updateLocale(locale, false);
+initializeShowcase();
 
 if (themeButton) themeButton.addEventListener('click', () => applyTheme(root.dataset.theme === 'dark' ? 'light' : 'dark'));
 if (localeButton) localeButton.addEventListener('click', () => updateLocale(locale === 'ru' ? 'en' : 'ru'));
@@ -169,8 +257,10 @@ if (menuButton && mobileNav) {
 }
 
 const revealElements = document.querySelectorAll('.reveal');
-if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  const revealObserver = new IntersectionObserver((entries, observer) => {
+const revealMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+let revealObserver = null;
+if ('IntersectionObserver' in window && !revealMotionQuery.matches) {
+  revealObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add('is-visible');
@@ -182,6 +272,12 @@ if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-mot
 } else {
   revealElements.forEach((element) => element.classList.add('is-visible'));
 }
+revealMotionQuery.addEventListener('change', (event) => {
+  if (!event.matches) return;
+  revealObserver?.disconnect();
+  revealObserver = null;
+  revealElements.forEach((element) => element.classList.add('is-visible'));
+});
 
 const filterButtons = document.querySelectorAll('[data-filter]');
 const projectGrid = document.querySelector('[data-projects-grid]');
@@ -207,21 +303,26 @@ if (copyButton) {
         await navigator.clipboard.writeText(email);
         copied = true;
       }
-    } catch { /* Use the checked fallback when the Clipboard API is unavailable. */ }
-    if (!copied && document.queryCommandSupported?.('copy') !== false) {
-      const input = document.createElement('textarea');
-      input.value = email;
-      input.setAttribute('readonly', '');
-      input.style.position = 'fixed';
-      input.style.opacity = '0';
-      document.body.append(input);
-      input.select();
-      try { copied = document.execCommand('copy') === true; } catch { copied = false; }
-      input.remove();
+    } catch { /* Try the legacy copy command if the Clipboard API is unavailable. */ }
+    if (!copied) {
+      let input;
+      try {
+        if (document.queryCommandSupported?.('copy') !== false && typeof document.execCommand === 'function') {
+          input = document.createElement('textarea');
+          input.value = email;
+          input.setAttribute('readonly', '');
+          input.style.position = 'fixed';
+          input.style.opacity = '0';
+          document.body.append(input);
+          input.select();
+          copied = document.execCommand('copy') === true;
+        }
+      } catch { copied = false; }
+      finally { input?.remove(); }
     }
     const label = copyButton.querySelector('.copy-label');
-    if (label) label.textContent = translate(copied ? 'copySuccess' : 'copyFailedLabel');
-    if (copyStatus) copyStatus.textContent = translate(copied ? 'copySuccess' : 'copyFailure');
+    if (label) label.textContent = translate(copied ? 'copySuccess' : 'copyEmail');
+    if (copyStatus) copyStatus.textContent = translate(copied ? 'copySuccess' : 'copyError');
     window.clearTimeout(copyButton.copyResetTimer);
     if (copied) copyButton.copyResetTimer = window.setTimeout(() => {
       if (label) label.textContent = translate('copyEmail');

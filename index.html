@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#10130f" />
-    <meta name="description" content="Портфолио Марка, веб-разработчика: сайты и интерфейсы для реальных проектов, созданные с вниманием к форме и деталям." data-i18n-content="metaDescription" />
-    <title data-i18n-title="homeTitle">Марк — веб-разработчик с чувством формы</title>
-    <script>try{const t=localStorage.getItem('mark-portfolio-theme');document.documentElement.dataset.theme=t==='light'||t==='dark'?t:'dark';const l=localStorage.getItem('mark-portfolio-locale');document.documentElement.lang=l==='en'||l==='ru'?l:'ru';const m=document.querySelector('meta[name="theme-color"]');if(m)m.content=document.documentElement.dataset.theme==='dark'?'#10130f':'#f5f3ed'}catch{document.documentElement.dataset.theme='dark';document.documentElement.lang='ru'}</script>
+    <meta name="theme-color" content="#101010" />
+    <meta name="description" content="Портфолио Марка, веб-разработчика. Реальные сайты, интерфейсы и открытые демо." data-i18n-content="metaDescription" />
+    <title data-i18n-title="homeTitle">Марк — веб-разработчик</title>
+    <script>try{const t=localStorage.getItem('mark-portfolio-theme');document.documentElement.dataset.theme=t==='light'||t==='dark'?t:'dark';const l=localStorage.getItem('mark-portfolio-locale');document.documentElement.lang=l==='en'||l==='ru'?l:'ru';const m=document.querySelector('meta[name="theme-color"]');if(m)m.content=document.documentElement.dataset.theme==='dark'?'#101010':'#eeede7'}catch{document.documentElement.dataset.theme='dark';document.documentElement.lang='ru'}</script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
@@ -17,91 +17,82 @@
     <a class="skip-link" href="#main" data-i18n="skip">Перейти к содержимому</a>
     <div class="site-shell">
       <header class="site-header" id="top">
-        <a class="brand" href="index.html#top" aria-label="Марк — на главную" data-i18n-aria="brandHome">
-          <span class="brand-symbol" aria-hidden="true">м<span class="brand-dot">.</span></span>
-          <span class="brand-name"><span data-i18n="brandName">Марк</span><br /><small data-i18n="brandRole">веб-разработчик</small></span>
-        </a>
-        <nav class="desktop-nav" aria-label="Основная навигация" data-i18n-aria="mainNav">
-          <a href="projects.html"><span data-i18n="navProjects">Проекты</span> <span>01</span></a>
-          <a href="#about"><span data-i18n="navAbout">Обо мне</span> <span>02</span></a>
-          <a href="#contact"><span data-i18n="navContact">Контакты</span> <span>03</span></a>
-        </nav>
-        <div class="header-tools">
-          <button class="theme-toggle" type="button" aria-pressed="true" aria-label="Переключить на светлую тему" data-i18n-aria="themeLight"><span aria-hidden="true">◐</span></button>
-          <button class="locale-switch" type="button" aria-label="Switch to English" data-i18n-aria="localeToEnglish">EN</button>
-        </div>
-        <a class="header-cta" href="#contact"><span data-i18n="headerCta">Обсудим проект</span> <span aria-hidden="true">↗</span></a>
-        <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-controls="mobile-nav" aria-expanded="false" data-i18n-aria="menuOpen">
-          <span></span><span></span>
-        </button>
+        <a class="brand" href="index.html#top" aria-label="Марк — на главную" data-i18n-aria="brandHome"><span class="brand-symbol" aria-hidden="true">м<span class="brand-dot">.</span></span><span class="brand-name"><span data-i18n="brandName">Марк</span><small data-i18n="brandRole">веб-разработчик</small></span></a>
+        <nav class="desktop-nav" aria-label="Основная навигация" data-i18n-aria="mainNav"><a href="projects.html"><span data-i18n="navProjects">Проекты</span><span>01</span></a><a href="#about"><span data-i18n="navAbout">Обо мне</span><span>02</span></a><a href="#contact"><span data-i18n="navContact">Контакты</span><span>03</span></a></nav>
+        <div class="header-tools"><button class="theme-toggle" type="button" aria-pressed="true" aria-label="Переключить на светлую тему" data-i18n-aria="themeLight"><span aria-hidden="true">◐</span></button><button class="locale-switch" type="button" aria-label="Switch to English" data-i18n-aria="localeToEnglish">EN</button></div>
+        <a class="header-cta" href="#contact"><span data-i18n="headerCta">Обсудим проект</span><span aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-controls="mobile-nav" aria-expanded="false" data-i18n-aria="menuOpen"><span></span><span></span></button>
       </header>
-      <nav class="mobile-nav" id="mobile-nav" aria-label="Мобильная навигация" data-i18n-aria="mobileNav">
-        <a href="projects.html"><span data-i18n="navProjects">Проекты</span> <span>01 ↗</span></a>
-        <a href="#about"><span data-i18n="navAbout">Обо мне</span> <span>02 ↗</span></a>
-        <a href="#contact"><span data-i18n="navContact">Контакты</span> <span>03 ↗</span></a>
-      </nav>
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Мобильная навигация" data-i18n-aria="mobileNav"><a href="projects.html"><span data-i18n="navProjects">Проекты</span><span>01 ↗</span></a><a href="#about"><span data-i18n="navAbout">Обо мне</span><span>02 ↗</span></a><a href="#contact"><span data-i18n="navContact">Контакты</span><span>03 ↗</span></a></nav>
 
       <main id="main">
         <section class="hero section-wrap" aria-labelledby="hero-heading">
-          <div class="hero-topline mono"><span><span class="live-dot"></span> <span data-i18n="availability">Открыт к интересным проектам</span></span><span data-i18n="heroMark">Портфолио / 2026</span></div>
+          <div class="hero-topline mono"><span>MARK / PORTFOLIO 2026</span><span>WEB · RU / EN</span></div>
           <div class="hero-grid">
             <div class="hero-copy">
-              <p class="eyebrow reveal"><span data-i18n="heroHello">Привет, я Марк</span> <span aria-hidden="true">✳</span> <span data-i18n="heroRole">Веб-разработчик</span></p>
-              <h1 id="hero-heading" class="reveal" data-i18n-html="heroHeading">Делаю<br />цифровое<br /><span class="hero-last">живым<span class="period">.</span><svg class="hero-scribble" viewBox="0 0 397 30" fill="none" aria-hidden="true"><path d="M3 20C93 4 279 -1 393 19M46 27c98-16 206-16 308-4" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg></span></h1>
-              <div class="hero-bottom reveal">
-                <p data-i18n="heroLead">Превращаю идеи в сайты и интерфейсы, которые не просто работают — они запоминаются.</p>
-                <a class="circle-link" href="projects.html" aria-label="Смотреть проекты" data-i18n-aria="seeWork"><span aria-hidden="true">↘</span></a>
-              </div>
-              <div class="hero-actions reveal">
-                <a class="button-primary" href="projects.html"><span data-i18n="allProjects">Все проекты</span><span aria-hidden="true">↗</span></a>
-                <a class="button-secondary" href="#contact" data-i18n="contactMe">Связаться со мной</a>
-              </div>
-              <div class="hero-stats mono" aria-label="Факты о портфолио" data-i18n-aria="portfolioFacts">
-                <div class="stat-item"><strong>05</strong><span data-i18n="projectsFact">опубликованных проектов</span></div>
-                <div class="stat-item"><strong>RU / EN</strong><span data-i18n="languagesFact">два языка</span></div>
-              </div>
+              <p class="eyebrow reveal"><span data-i18n="heroStatement">Веб-разработчик</span><span class="hero-marker" aria-hidden="true">↘</span></p>
+              <h1 id="hero-heading" class="hero-identity reveal" data-i18n="heroIdentity">МАРК</h1>
+              <p class="hero-description reveal" data-i18n="heroDescription">Марк — веб-разработчик. Создаю сайты и интерфейсы на HTML, CSS и JavaScript.</p>
+              <a class="hero-link reveal" href="projects.html"><span data-i18n="allProjects">Все проекты</span><span aria-hidden="true">↗</span></a>
             </div>
-            <div class="hero-art reveal" aria-label="Абстрактная иллюстрация цифрового интерфейса" data-i18n-aria="heroArtwork" role="img">
-              <div class="art-grid"></div>
-              <div class="art-top mono"><span data-i18n="artTop">КРЕАТИВНЫЙ КОД / 001</span><span aria-hidden="true">↗</span></div>
-              <div class="art-orbit art-orbit-one"></div>
-              <div class="art-orbit art-orbit-two"></div>
-              <div class="art-core"><div class="core-inner"></div></div>
-              <div class="art-spark art-spark-one" aria-hidden="true">✳</div><div class="art-spark art-spark-two" aria-hidden="true">✦</div>
-              <div class="art-label art-label-top mono" data-i18n-html="artIdea">Идея<br />↓<br />Реальность</div>
-              <div class="art-label art-label-bottom mono" data-i18n="artDetail">001 / Сделано с интересом</div>
-              <div class="art-sticker" data-i18n-html="artSticker">код<br /><span>&amp;</span> душа</div>
+            <div class="showcase reveal" data-showcase aria-label="Избранный проект" data-i18n-aria="showcaseLabel">
+              <div class="showcase-panels">
+                <article class="showcase-panel" data-showcase-panel="cofeetea" data-project-id="cofeetea">
+                  <div class="showcase-visual"><a class="showcase-link project-preview-link" href="https://deadlydeadlars.github.io/CofeeTea.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Открыть сайт CofeeTea"><span class="showcase-image-layer"><img class="showcase-image" src="assets/projects/cofeetea.webp" width="1200" height="833" fetchpriority="high" alt="Сайт кофейни CofeeTea с меню и интерфейсом бронирования" data-project-field="alt" /></span></a></div>
+                  <div class="showcase-meta"><div class="showcase-caption"><p class="showcase-label mono" data-i18n="showcaseLabel">ИЗБРАННЫЙ ПРОЕКТ</p><p class="showcase-title" data-project-field="title">CofeeTea</p><p class="showcase-role" data-project-field="categoryLabel">Сайт кофейни</p><p class="showcase-description" data-project-field="description">Сайт кофейни в Екатеринбурге: меню, вкладки и интерфейс бронирования.</p></div></div>
+                </article>
+                <article class="showcase-panel" data-showcase-panel="fightfinder" data-project-id="fightfinder" hidden>
+                  <div class="showcase-visual"><a class="showcase-link project-preview-link" href="https://deadlydeadlars.github.io/FightFinder-demo/" target="_blank" rel="noopener noreferrer" aria-label="Открыть демо FightFinder"><span class="showcase-image-layer"><img class="showcase-image" src="assets/projects/fightfinder.webp" width="1200" height="833" alt="FightFinder — промо-страница приложения для поиска партнёров по тренировкам" data-project-field="alt" /></span></a></div>
+                  <div class="showcase-meta"><div class="showcase-caption"><p class="showcase-label mono" data-i18n="showcaseLabel">ИЗБРАННЫЙ ПРОЕКТ</p><p class="showcase-title" data-project-field="title">FightFinder</p><p class="showcase-role" data-project-field="categoryLabel">Лендинг приложения</p><p class="showcase-description" data-project-field="description">Промо-страница сервиса для поиска партнёров по тренировкам.</p></div></div>
+                </article>
+                <article class="showcase-panel" data-showcase-panel="shinru" data-project-id="shinru" hidden>
+                  <div class="showcase-visual"><a class="showcase-link project-preview-link" href="https://deadlydeadlars.github.io/Mechanical.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Открыть сайт ШинРу"><span class="showcase-image-layer"><img class="showcase-image" src="assets/projects/shinru.webp" width="1200" height="833" alt="Сайт автосервиса ШинРу с информацией об услугах" data-project-field="alt" /></span></a></div>
+                  <div class="showcase-meta"><div class="showcase-caption"><p class="showcase-label mono" data-i18n="showcaseLabel">ИЗБРАННЫЙ ПРОЕКТ</p><p class="showcase-title" data-project-field="title">ШинРу / ShinRu</p><p class="showcase-role" data-project-field="categoryLabel">Сайт автосервиса</p><p class="showcase-description" data-project-field="description">Сайт автосервиса в Казани с описанием услуг и интерфейсом записи.</p></div></div>
+                </article>
+              </div>
+              <div class="showcase-navigation" data-showcase-controls role="group" aria-label="Выбрать проект" data-i18n-aria="showcaseHint" hidden>
+                <p class="showcase-hint mono" data-i18n="showcaseHint">ВЫБРАТЬ ПРОЕКТ</p>
+                <div class="showcase-controls"><button type="button" data-showcase-select="cofeetea" aria-pressed="true" aria-label="CofeeTea">01</button><button type="button" data-showcase-select="fightfinder" aria-pressed="false" aria-label="FightFinder">02</button><button type="button" data-showcase-select="shinru" aria-pressed="false" aria-label="ShinRu">03</button></div>
+              </div>
             </div>
           </div>
-          <div class="hero-foot mono"><span data-i18n="heroFootLeft">Дизайн-мышление × Разработка</span><span><span data-i18n="scroll">Листай вниз</span> <span aria-hidden="true">↓</span></span></div>
+          <div class="hero-foot mono"><span>HTML · CSS · JAVASCRIPT</span><a href="#work"><span data-i18n="featuredEyebrow">Избранные проекты</span><span aria-hidden="true">↓</span></a></div>
         </section>
-
-        <div class="ticker" aria-hidden="true"><div class="ticker-track"><span><span data-i18n-html="ticker">ИНТЕРФЕЙСЫ С ХАРАКТЕРОМ <b>✳</b> КОД СО СМЫСЛОМ <b>✳</b> ИДЕИ В ДЕЙСТВИИ <b>✳</b></span>&nbsp;</span><span><span data-i18n-html="ticker">ИНТЕРФЕЙСЫ С ХАРАКТЕРОМ <b>✳</b> КОД СО СМЫСЛОМ <b>✳</b> ИДЕИ В ДЕЙСТВИИ <b>✳</b></span>&nbsp;</span></div></div>
 
         <section class="work-section section-wrap" id="work" aria-labelledby="work-heading">
-          <div class="section-heading reveal"><div><p class="eyebrow"><span class="section-index">01 /</span> <span data-i18n="featuredEyebrow">Избранное</span></p><h2 id="work-heading" data-i18n-html="featuredHeading">Работы, которые<br /><em>говорят сами.</em></h2></div><p class="heading-side" data-i18n="featuredIntro">Реальные сайты и страницы для проектов — каждый со своей задачей.</p></div>
-          <div class="project-grid">
-            <article class="project-card reveal" data-project-id="fightfinder" data-category="landing">
-              <div class="project-preview"><div class="browser-bar" aria-hidden="true"><span class="browser-dots">● ● ●</span><span class="browser-address">fightfinder</span></div><a href="https://deadlydeadlars.github.io/FightFinder-demo/" class="project-preview-link" target="_blank" rel="noopener noreferrer" aria-label="Открыть демо FightFinder"><img class="project-image" src="assets/projects/fightfinder.webp" width="1200" height="833" loading="lazy" alt="FightFinder — промо-страница приложения для поиска партнёров по тренировкам" data-project-field="alt" /></a></div>
-              <div class="project-info"><p class="project-category" data-project-field="categoryLabel">Лендинг приложения</p><h3 class="project-title" data-project-field="title">FightFinder</h3><p class="project-description" data-project-field="description">Промо-страница сервиса для поиска партнёров по тренировкам.</p><div class="project-tags"><span class="project-tag">Astro</span><span class="project-tag">React</span><span class="project-tag">Tailwind CSS</span></div><p class="project-note" data-project-field="note">Промо-страница; подбор партнёров и backend не работают.</p><div class="project-actions"><a class="project-demo" href="https://deadlydeadlars.github.io/FightFinder-demo/" target="_blank" rel="noopener noreferrer" data-i18n="viewDemo">Смотреть демо <span aria-hidden="true">↗</span></a></div></div>
-            </article>
+          <div class="section-heading reveal"><div><p class="eyebrow"><span class="section-index">01 /</span><span data-i18n="featuredEyebrow">Избранные проекты</span></p><h2 id="work-heading" data-i18n-html="featuredHeading">Три сайта.<br /><em>Разные задачи.</em></h2></div><p class="heading-side" data-i18n="featuredIntro">Три проекта — три разные задачи. Откройте демо, чтобы посмотреть результат.</p></div>
+          <div class="project-sequence">
             <article class="project-card reveal" data-project-id="cofeetea" data-category="website">
-              <div class="project-preview"><div class="browser-bar" aria-hidden="true"><span class="browser-dots">● ● ●</span><span class="browser-address">cofeetea</span></div><a href="https://deadlydeadlars.github.io/CofeeTea.github.io/" class="project-preview-link" target="_blank" rel="noopener noreferrer" aria-label="Открыть сайт CofeeTea"><img class="project-image" src="assets/projects/cofeetea.webp" width="1200" height="833" loading="lazy" alt="Сайт кофейни CofeeTea с меню и интерфейсом бронирования" data-project-field="alt" /></a></div>
-              <div class="project-info"><p class="project-category" data-project-field="categoryLabel">Сайт кофейни</p><h3 class="project-title" data-project-field="title">CofeeTea</h3><p class="project-description" data-project-field="description">Сайт кофейни в Екатеринбурге: меню, вкладки и интерфейс бронирования.</p><div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JavaScript</span><span class="project-tag">Vite</span></div><p class="project-note" data-project-field="note">Форма бронирования не отправляет реальные заявки.</p><div class="project-actions"><a class="project-demo" href="https://deadlydeadlars.github.io/CofeeTea.github.io/" target="_blank" rel="noopener noreferrer" data-i18n="viewDemo">Смотреть демо <span aria-hidden="true">↗</span></a><a class="project-source" href="https://github.com/DeadlyDeadlars/CofeeTea.github.io" target="_blank" rel="noopener noreferrer" data-i18n="sourceCode">Исходный код <span aria-hidden="true">↗</span></a></div></div>
+              <a class="project-preview-link project-image-link" href="https://deadlydeadlars.github.io/CofeeTea.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Открыть сайт CofeeTea"><img class="project-image" src="assets/projects/cofeetea.webp" width="1200" height="833" loading="lazy" alt="Сайт кофейни CofeeTea с меню и интерфейсом бронирования" data-project-field="alt" /></a>
+              <div class="project-info"><p class="project-category mono" data-project-field="categoryLabel">Сайт кофейни</p><h3 class="project-title" data-project-field="title">CofeeTea</h3><p class="project-description" data-project-field="description">Сайт кофейни в Екатеринбурге: меню, вкладки и интерфейс бронирования.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vite</span></div><p class="project-note" data-project-field="note">Форма бронирования не отправляет реальные заявки.</p><div class="project-actions"><a class="project-demo" href="https://deadlydeadlars.github.io/CofeeTea.github.io/" target="_blank" rel="noopener noreferrer" data-i18n="viewDemo">Смотреть демо<span aria-hidden="true">↗</span></a><a class="project-source" href="https://github.com/DeadlyDeadlars/CofeeTea.github.io" target="_blank" rel="noopener noreferrer" data-i18n="sourceCode">Исходный код<span aria-hidden="true">↗</span></a></div></div>
+            </article>
+            <article class="project-card reveal" data-project-id="fightfinder" data-category="landing">
+              <a class="project-preview-link project-image-link" href="https://deadlydeadlars.github.io/FightFinder-demo/" target="_blank" rel="noopener noreferrer" aria-label="Открыть демо FightFinder"><img class="project-image" src="assets/projects/fightfinder.webp" width="1200" height="833" loading="lazy" alt="FightFinder — промо-страница приложения для поиска партнёров по тренировкам" data-project-field="alt" /></a>
+              <div class="project-info"><p class="project-category mono" data-project-field="categoryLabel">Лендинг приложения</p><h3 class="project-title" data-project-field="title">FightFinder</h3><p class="project-description" data-project-field="description">Промо-страница сервиса для поиска партнёров по тренировкам.</p><div class="project-tags"><span>Astro</span><span>React</span><span>Tailwind CSS</span></div><p class="project-note" data-project-field="note">Промо-страница; подбор партнёров и backend не работают.</p><div class="project-actions"><a class="project-demo" href="https://deadlydeadlars.github.io/FightFinder-demo/" target="_blank" rel="noopener noreferrer" data-i18n="viewDemo">Смотреть демо<span aria-hidden="true">↗</span></a></div></div>
             </article>
             <article class="project-card reveal" data-project-id="shinru" data-category="website">
-              <div class="project-preview"><div class="browser-bar" aria-hidden="true"><span class="browser-dots">● ● ●</span><span class="browser-address">shinru</span></div><a href="https://deadlydeadlars.github.io/Mechanical.github.io/" class="project-preview-link" target="_blank" rel="noopener noreferrer" aria-label="Открыть сайт ШинРу"><img class="project-image" src="assets/projects/shinru.webp" width="1200" height="833" loading="lazy" alt="Сайт автосервиса ШинРу с информацией об услугах" data-project-field="alt" /></a></div>
-              <div class="project-info"><p class="project-category" data-project-field="categoryLabel">Сайт автосервиса</p><h3 class="project-title" data-project-field="title">ШинРу / ShinRu</h3><p class="project-description" data-project-field="description">Сайт автосервиса в Казани с описанием услуг и интерфейсом записи.</p><div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JavaScript</span><span class="project-tag">Vite</span></div><p class="project-note" data-project-field="note">Демо показывает интерфейс; отправка заявок на сервер не подключена.</p><div class="project-actions"><a class="project-demo" href="https://deadlydeadlars.github.io/Mechanical.github.io/" target="_blank" rel="noopener noreferrer" data-i18n="viewDemo">Смотреть демо <span aria-hidden="true">↗</span></a><a class="project-source" href="https://github.com/DeadlyDeadlars/Mechanical.github.io" target="_blank" rel="noopener noreferrer" data-i18n="sourceCode">Исходный код <span aria-hidden="true">↗</span></a></div></div>
+              <a class="project-preview-link project-image-link" href="https://deadlydeadlars.github.io/Mechanical.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Открыть сайт ШинРу"><img class="project-image" src="assets/projects/shinru.webp" width="1200" height="833" loading="lazy" alt="Сайт автосервиса ШинРу с информацией об услугах" data-project-field="alt" /></a>
+              <div class="project-info"><p class="project-category mono" data-project-field="categoryLabel">Сайт автосервиса</p><h3 class="project-title" data-project-field="title">ШинРу / ShinRu</h3><p class="project-description" data-project-field="description">Сайт автосервиса в Казани с описанием услуг и интерфейсом записи.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vite</span></div><p class="project-note" data-project-field="note">Демо показывает интерфейс; отправка заявок на сервер не подключена.</p><div class="project-actions"><a class="project-demo" href="https://deadlydeadlars.github.io/Mechanical.github.io/" target="_blank" rel="noopener noreferrer" data-i18n="viewDemo">Смотреть демо<span aria-hidden="true">↗</span></a><a class="project-source" href="https://github.com/DeadlyDeadlars/Mechanical.github.io" target="_blank" rel="noopener noreferrer" data-i18n="sourceCode">Исходный код<span aria-hidden="true">↗</span></a></div></div>
             </article>
           </div>
-          <div class="work-footer"><p class="project-note mono" data-i18n="workFootnote">Портфолио показывает опубликованные демо, а не обещания о серверной функциональности.</p><a class="text-link" href="projects.html"><span data-i18n="allFive">Смотреть все пять проектов</span> <span aria-hidden="true">↗</span></a></div>
+          <div class="work-footer"><p class="project-note mono" data-i18n="workFootnote">Все ссылки ведут на опубликованные демо; возможности сервера не заявлены.</p><a class="text-link" href="projects.html"><span data-i18n="allFive">Все пять проектов</span><span aria-hidden="true">↗</span></a></div>
         </section>
 
-        <section class="about-section" id="about" aria-labelledby="about-heading"><div class="section-wrap about-inner"><div class="about-intro reveal"><p class="eyebrow"><span class="section-index">02 /</span> <span data-i18n="aboutEyebrow">Обо мне</span></p><h2 id="about-heading" data-i18n-html="aboutHeading">Между логикой<br />и <span>магией.</span></h2><div class="about-asterisk" aria-hidden="true">✳</div></div><div class="about-content reveal"><p class="about-lead" data-i18n-html="aboutLead">Мне нравится момент, когда сложная задача превращается в <em>простой, красивый и удобный</em> опыт.</p><p data-i18n="aboutBody">Я Марк, веб-разработчик. Думаю о деталях, проектирую с заботой о пользователе и пишу код, с которым приятно работать дальше. Верю: сильный продукт рождается там, где технология встречается с идеей.</p><a class="text-link" href="#contact"><span data-i18n="letsTalk">Давайте знакомиться</span> <span aria-hidden="true">↗</span></a></div></div></section>
+        <section class="about-section" id="about" aria-labelledby="about-heading">
+          <div class="section-wrap about-inner">
+            <div class="about-intro reveal"><p class="eyebrow"><span class="section-index">02 /</span><span data-i18n="aboutEyebrow">Профиль</span></p><h2 id="about-heading" data-i18n-html="aboutHeading">Марк,<br /><em>веб-разработчик.</em></h2></div>
+            <div class="about-content reveal"><p class="about-lead" data-i18n-html="aboutLead">Делаю сайты и интерфейсы — от структуры до фронтенда.</p><p data-i18n="aboutBody">В проектах работаю с HTML, CSS и JavaScript; собираю адаптивные страницы, настраиваю взаимодействия и подключаю готовые интерфейсы. Здесь — опубликованные демо и их реальные ограничения.</p><div class="skills-section"><div class="skills-heading"><p class="eyebrow" data-i18n="skillsEyebrow">СТЕК</p><h3 data-i18n="skillsHeading">Инструменты</h3><p class="skills-intro" data-i18n="skillsIntro">Технологии, которые использую в проектах.</p></div><ul class="stack-list"><li>HTML <span>01</span></li><li>CSS <span>02</span></li><li>JavaScript <span>03</span></li><li>Astro · React · Vite <span>04</span></li></ul></div><a class="text-link" href="#contact"><span data-i18n="letsTalk">Связаться</span><span aria-hidden="true">↗</span></a></div>
+          </div>
+        </section>
 
-        <section class="skills-section section-wrap" aria-labelledby="skills-heading"><div class="section-heading skills-heading reveal"><div><p class="eyebrow"><span class="section-index">03 /</span> <span data-i18n="skillsEyebrow">Инструменты</span></p><h2 id="skills-heading" data-i18n-html="skillsHeading">Чем собираю<br /><em>идеи в продукт.</em></h2></div><p class="heading-side" data-i18n="skillsIntro">Подход важнее набора технологий. Но хороший набор тоже помогает.</p></div><div class="skills-grid reveal"><div class="skill-card"><span class="skill-icon" aria-hidden="true">⌘</span><span class="skill-num mono" data-i18n="skillOneNum">01 / ОСНОВА</span><h3 data-i18n="skillOneTitle">Разработка</h3><p data-i18n-html="skillOneBody">HTML, CSS, JavaScript<br />и современные интерфейсы</p></div><div class="skill-card"><span class="skill-icon" aria-hidden="true">◈</span><span class="skill-num mono" data-i18n="skillTwoNum">02 / ПОДХОД</span><h3 data-i18n="skillTwoTitle">Дизайн-мышление</h3><p data-i18n-html="skillTwoBody">Типографика, композиция<br />и внимание к деталям</p></div><div class="skill-card"><span class="skill-icon" aria-hidden="true">✳</span><span class="skill-num mono" data-i18n="skillThreeNum">03 / ОЩУЩЕНИЕ</span><h3 data-i18n="skillThreeTitle">Интерактивность</h3><p data-i18n-html="skillThreeBody">Анимация, микровзаимодействия<br />и немного магии</p></div></div></section>
-
-        <section class="contact-section" id="contact" aria-labelledby="contact-heading"><div class="section-wrap contact-inner"><div class="contact-top mono"><span><span class="live-dot"></span> <span data-i18n="contactEyebrow">ЕСТЬ ИДЕЯ? ДАВАЙТЕ ОБСУДИМ</span></span><span data-i18n="contactIndex">04 / КОНТАКТЫ</span></div><p class="contact-kicker reveal" data-i18n="contactKicker">Хорошие проекты начинаются с разговора.</p><h2 id="contact-heading" class="reveal" data-i18n-html="contactHeading">Давайте сделаем<br /><em>что-то классное<span>.</span></em></h2><div class="contact-actions reveal"><a class="contact-button" href="mailto:deadlydeadlars@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B0" data-i18n-href="mailtoSubject"><span data-i18n="writeMe">Написать мне</span> <span aria-hidden="true">↗</span></a><button class="copy-button" type="button" data-copy-email="deadlydeadlars@gmail.com" aria-live="polite"><span class="copy-label" data-i18n="copyEmail">Скопировать email</span> <span aria-hidden="true">↗</span></button></div><p class="copy-status" data-copy-status aria-live="polite" data-i18n="copyReady">Адрес электронной почты можно скопировать.</p><div class="contact-links"><a href="https://t.me/MarkCodder" target="_blank" rel="noopener noreferrer">Telegram <span aria-hidden="true">↗</span></a><a href="https://github.com/DeadlyDeadlars" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="mailto:deadlydeadlars@gmail.com">deadlydeadlars@gmail.com</a></div><footer class="footer"><a class="footer-brand" href="index.html#top" aria-label="Наверх" data-i18n-aria="backToTop">м<span>.</span></a><span data-i18n="footerMade">Сделано с интересом и вниманием к деталям.</span><a href="index.html#top"><span data-i18n="backTop">Наверх</span> ↑</a><span>© <span id="year">2026</span> <span data-i18n="brandName">Марк</span></span></footer></div></section>
+        <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+          <div class="section-wrap contact-inner">
+            <div class="contact-top mono"><span data-i18n="contactEyebrow">КОНТАКТЫ</span><span data-i18n="contactIndex">03 / СВЯЗЬ</span></div>
+            <div class="contact-main"><p class="eyebrow reveal" data-i18n="contactKicker">Написать Марку</p><h2 id="contact-heading" class="reveal" data-i18n-html="contactHeading">Есть проект?<br /><em>Напишите мне.</em></h2><div class="contact-actions reveal"><a class="contact-button" href="mailto:deadlydeadlars@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B0" data-i18n-href="mailtoSubject"><span data-i18n="writeMe">Написать на email</span><span aria-hidden="true">↗</span></a><button class="copy-button" type="button" data-copy-email="deadlydeadlars@gmail.com" aria-live="polite"><span class="copy-label" data-i18n="copyEmail">Скопировать email</span><span aria-hidden="true">+</span></button></div><p class="copy-status" data-copy-status aria-live="polite" data-i18n="copyReady">Адрес электронной почты можно скопировать.</p></div>
+            <div class="contact-links"><a href="https://t.me/MarkCodder" target="_blank" rel="noopener noreferrer">Telegram<span aria-hidden="true">↗</span></a><a href="https://github.com/DeadlyDeadlars" target="_blank" rel="noopener noreferrer">GitHub<span aria-hidden="true">↗</span></a><a href="mailto:deadlydeadlars@gmail.com">deadlydeadlars@gmail.com<span aria-hidden="true">↗</span></a></div>
+            <footer class="footer"><a class="footer-brand" href="index.html#top" aria-label="Марк — на главную" data-i18n-aria="brandHome">м<span>.</span></a><span data-i18n="footerMade">Марк · веб-разработчик</span><a href="index.html#top"><span data-i18n="backTop">Наверх</span>↑</a><span>© <span id="year">2026</span> <span data-i18n="brandName">Марк</span></span></footer>
+          </div>
+        </section>
       </main>
     </div>
   </body>
